@@ -5,7 +5,6 @@ This project is designed to classify lung cancer images into two categories: **M
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Requirements](#requirements)
-- [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Model Training](#model-training)
 - [Model Prediction](#model-prediction)
@@ -44,3 +43,10 @@ After the model is trained, you can use the script to make predictions on new im
 ```
 python predict.py <image-path>
 ```
+
+This will output one of the following based on the model's prediction:
+- "This patient likely has lung cancer"
+- "This patient likely does NOT have lung cancer"
+- "Unsure whether this patient has lung cancer or not"
+
+Additionally, it will print the percentage likelihood of having lung cancer, with values representing the probability that the image is classified as **Malignant** or **Normal**.
