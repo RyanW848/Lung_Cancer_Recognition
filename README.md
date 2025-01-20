@@ -6,14 +6,11 @@ This project is designed to classify lung cancer images into two categories: **M
 - [Project Overview](#project-overview)
 - [Requirements](#requirements)
 - [Usage](#usage)
-- [Model Training](#model-training)
-- [Model Prediction](#model-prediction)
-- [Visualizations](#visualizations)
 
 ---
 
 ## Project Overview
-This program utilizes TensorFlow to build a Convolutional Neural Network (CNN) model for binary classification of lung cancer images. The model is trained using a dataset of lung images stored in a directory, and predictions are made on new images using a trained model. The program also includes visualizations of training accuracy and loss.
+This program utilizes TensorFlow to build a Convolutional Neural Network (CNN) model for binary classification of lung cancer images. The model is trained using a dataset of lung images stored in a directory, and predictions are made on new images using a trained model. The program also includes visualizations of training accuracy and loss, which for the preexisting model are 0.9992 and 0.0057 respectively.
 
 ---
 
@@ -35,7 +32,7 @@ pip install tensorflow opencv-python numpy matplotlib
 
 ## Usage
 
-### 1. **Running the Model on New Image**
+### **Running the Model on New Image**
 
 After the model is trained, you can use the script to make predictions on new images.
 
